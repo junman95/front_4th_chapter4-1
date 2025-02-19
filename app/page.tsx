@@ -1,4 +1,4 @@
-import { Button, Dialog } from '@radix-ui/themes';
+import { Button, Dialog, Text } from '@radix-ui/themes';
 import Image from 'next/image';
 
 export default function Home() {
@@ -25,6 +25,7 @@ export default function Home() {
             </Dialog.Description>
           </Dialog.Content>
         </Dialog.Root>
+        <Text>Hello, world!</Text>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
